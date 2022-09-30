@@ -104,6 +104,16 @@ p {
 .img {
   border-radius: 15px;
 }
+.content h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.content p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
 
 @media (max-width: 960px) {
   h1 {
