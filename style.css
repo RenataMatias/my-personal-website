@@ -1,10 +1,10 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 :root {
-  --branding-color: #6c63ff;
-  /* --branding-color: #4e78c1; */
-  --secondary-color: #f9f7fe;
-  /* --secondary-color: #a6d8f3; */
+  /* --branding-color: #6c63ff; */
+  --branding-color: #4e78c1;
+  /* --secondary-color: #f9f7fe; */
+  --secondary-color: #c1e3f6;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -112,7 +112,7 @@ footer .social-links a:hover {
 }
 .btn.btn-branding:hover {
   background: var(--branding-color);
-  color: white;
+  color: #272142;
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -123,11 +123,11 @@ footer .social-links a:hover {
   padding: 15px 30px;
 }
 .btn.btn-branding-outline:hover {
-  color: var(--branding-color);
+  color: #272142;
   border: 1px solid var(--branding-color);
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 60px 60px;
 }
 .content-container {
   padding: 60px 20px;
@@ -162,6 +162,9 @@ footer .social-links a:hover {
 }
 .img-logo {
   max-height: 40px;
+}
+.UKlogo {
+  max-width: 15px;
 }
 
 nav {
