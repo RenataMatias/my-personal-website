@@ -32,10 +32,55 @@ h2 {
   font-family: var(--default-font-family);
 }
 
+h4 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .contact-box a {
+  padding: 18px 30px;
+  height: 65px;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .email-link {
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  font-size: 18px;
+  line-height: 21px;
+  padding: 10px 13px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 .hero {
@@ -85,7 +130,7 @@ p {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .content-container h1 {
@@ -118,6 +163,7 @@ p {
 .img-logo {
   max-height: 40px;
 }
+
 nav {
   padding: 20px 0;
 }
@@ -126,8 +172,8 @@ nav ul {
   margin: 0;
 }
 nav li {
-  list-style: none;
   display: inline;
+  list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
@@ -137,17 +183,25 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
-na li.active a {
+.active {
   color: var(--branding-color);
 }
 
 @media (max-width: 960px) {
+  .content-container {
+    padding: 0px 20px;
+  }
+  .content h1,
   h1 {
     font-size: 44px;
     line-height: 1.5;
+    text-align: center;
   }
   h2 {
     font-size: 44px;
+  }
+  .content h3 {
+    font-size: 18px;
   }
   .hero {
     padding: 80px 20px;
