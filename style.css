@@ -39,7 +39,7 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -156,8 +156,8 @@ footer .social-links a:hover {
   font-family: var(--default-font-family);
 }
 .content p {
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 30px;
   font-weight: normal;
 }
 .img-logo {
