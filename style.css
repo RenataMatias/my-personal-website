@@ -32,7 +32,7 @@ h2 {
   font-family: var(--default-font-family);
 }
 
-h4 {
+h3 {
   font-size: 48px;
   line-height: 64px;
 }
@@ -46,17 +46,17 @@ p {
 footer {
   margin-top: 50px;
 }
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
 footer .contact-box p {
   margin: 0;
 }
 footer .contact-box a {
   padding: 18px 30px;
   height: 65px;
-}
-footer .contact-box {
-  background: var(--secondary-color);
-  padding: 30px 120px;
-  border-radius: 10px;
 }
 footer .email-link {
   font-size: 24px;
@@ -86,7 +86,7 @@ footer .social-links a:hover {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -130,7 +130,7 @@ footer .social-links a:hover {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 80px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -203,9 +203,7 @@ nav a:hover,
   .content h3 {
     font-size: 18px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .project-description {
     padding: 0;
     text-align: center;
